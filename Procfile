@@ -1,1 +1,1 @@
-worker: python3 -m zero
+worker: python3 -m point
