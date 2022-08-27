@@ -1,12 +1,12 @@
 {
-    "name": "zero",
-    "description": "zero",
+    "name": "point",
+    "description": "point",
     "keywords": [],
     "repository": "https://github.com/ANAS-ST/zero",
     "env": {},
     "stack": "heroku-20",
     "formation": {
-        worker{
+        "worker": {
             "quantity": 1,
             "size": "free"
         }
