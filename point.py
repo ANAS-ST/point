@@ -20,7 +20,7 @@ botton = [
 
 @bot.on_message()
 def command2(_, message):
-    text = message.text + '\nرصيدك هو :   0'
+    text = message.text + '\nرصيدك هو :  0'
     reply_markup = InlineKeyboardMarkup(botton)
     message.reply(
         text=text,
